@@ -1,0 +1,449 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+li{
+  margin-top:20px;
+}
+li a{
+    list-style:none;
+    margin-right:30px;
+    color: white;
+    transition:0.3s ease-out;
+    text-decoration: none !important ;
+}
+li a:hover{
+  transition:0.3s ease-in;
+  color:#bdbec0c4;
+  
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background: #272829;
+    height:70px;
+    position: fixed;
+}
+
+/*
+navbar media
+*/
+@media only screen and (max-width: 600px) {
+  .header ul{
+    visibility: hidden;
+  }
+  
+}
+
+
+@media only screen and (min-width: 600px) {}
+
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
+.parallax{
+    background-image: url('/photos/casr111.jpg');
+    width: 100%; 
+    height:1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.shadow{
+    width: 100%; 
+    height:1200px;
+    background: #00000049;
+}
+
+  .logo{
+    text-align: center;
+    margin-top:-900px;
+  }
+  .logo p:first-child {
+font-size:60px;
+font-family: 'Barriecito', cursive;
+color: white;
+  }
+  .logo p:last-child {
+    font-size:40px;
+    font-family: 'Barriecito', cursive;
+    color: white;
+      }
+
+.nextpage{
+  margin-top:300px;
+text-align: center;
+}
+.nextpage i{
+  margin:15px;
+}
+.service{
+  margin-top:100px;
+  background: #272829;
+  width:100%;
+  height:440px;
+}
+.p0{
+  font-size:30px;
+  color: white;
+  font-family: 'Signika', sans-serif;
+  display: flex;
+  justify-content:center ;
+padding-top:35px;
+
+}
+.blocksss{
+  display: flex ;
+  justify-content: space-around;
+  padding-top:30px;
+}
+.block1{
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding-top:20px;
+}
+.block1 img{
+  width:200px;
+}
+.p1{
+  font-size:30px;
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+.p2{
+  font-size:15px;
+  color: white;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+}
+.in{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+.disk{
+  width:50px;
+  border:2px solid white;
+  align-items: center;
+}
+
+
+.textarea1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:160px;
+}
+.textarea1 p:first-child{
+font-size:30px;
+font-family: 'Signika', sans-serif;
+}
+.textarea1 p:last-child{
+  font-size:18px;
+  font-family: 'Signika', sans-serif;
+  margin-top:20px;
+  }
+  .displayaloys {
+    display: flex;
+    width:100%;
+  }
+  .firstrow img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .alloys{
+    margin-top:30px;
+    height:720px;
+  }
+
+  .aboutbg{
+    background: url("/photos/pexels-aleksandr-neplokhov-1238952.jpg");
+    width: 100%; 
+    height:620px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.mainabout{
+  display: flex;
+  justify-content: center;
+  height:100%;
+  align-items: center;
+}
+  .aboutus{
+    background: white;
+    width:650px;
+    height:450px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutus p{
+    font-family: 'Signika', sans-serif;
+    word-spacing:1px;
+  }
+  .aboutus p:first-child{
+    font-size:30px;
+  }
+
+
+  .blackbody{
+    width:100%;
+    height:10px;
+    background: #272829;
+  }
+  .mustang{
+    background:url("/photos/skyline\ gtr.jpg");
+    width: 100%; 
+    height:620px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+.conte{
+  height:500px;
+  width:70%;
+  background:url("/photos/skyline\ gtr.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+ .cont-2{
+  height:90%;
+  width:50%;
+}
+
+
+.cont-1{
+  height:90%;
+  width:50%;
+  background: #00000086 !important;
+}
+.formfil{
+  display: flex;
+  justify-content: center;
+ 
+}
+.inp-p-1 p{
+font-size:40px;
+color: #fff;
+font-family: 'Josefin Slab', serif;
+}
+.inp-p-1 {
+  display: flex;
+  width:100%;
+  height:120px;
+  align-items: center;
+  justify-content: center;
+  }
+  .inputtt{
+    padding-bottom:40px;
+  }
+.inputtt input{
+  background-color:transparent;
+  border:none;
+  border-bottom:1px solid rgb(255, 255, 255);
+  outline: none;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+}
+::placeholder{
+  color:#fff!important;
+  font-family: 'Josefin Slab', serif;
+}
+.inp-1-but{
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.inp-1-but button{
+padding:8px 90px;
+background: rgba(65, 65, 65, 0.788);
+color:#fff!important;
+font-family: 'Josefin Slab', serif;
+text-transform: uppercase;
+font-size:13px;
+border:none;
+transition:0.3s ease-out;
+}
+.inp-1-but button:hover{
+  transition:0.3s ease-in;
+  background-color:rgba(97, 97, 97, 0.788);
+}
+
+.skyline{
+  height:100%;
+  display: flex;
+  align-items: center;
+  flex-direction:column ;
+}
+.sky-1 {
+
+  width:100%;
+  height:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:90px;
+}
+.sky-1 p{
+  font-size: 70px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: rgba(255, 255, 255, 0.87);
+}
+.sky-2{
+  color: rgba(255, 255, 255, 0.87);
+  width:100%;
+  height:30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sky-2 h1{
+  font-size: 200px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.runway{
+  height:10%;
+  width:100%;
+}
+.runway img{
+  height:100%;
+  mix-blend-mode: color-burn;
+  animation-name:supra;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+  position: relative;
+  transition: ease-in-out;
+}
+@keyframes supra{
+  0%{
+    top:0px;
+    left:0px;
+  }
+  50%{
+    top:0px;
+    left:82%;
+    opacity:10;
+  }
+  75%{
+    opacity:0;
+    left:100%;
+  }
+  100%{
+    opacity:0;
+    left:0;
+  }
+}
+.runway1{
+  height:100%;
+  width:50%;
+  background: #03030388;
+  margin-top:-50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .review{
+
+height:80%;
+width:100%;
+padding-top:80px;
+  }
+.r1 {
+  font-size:60px;
+  font-family: 'Barriecito', cursive;
+  color: aliceblue;
+}
+.r11{
+  color: #F7E987;
+}
+.r2{
+  color: aliceblue;
+  font-family: 'Signika', sans-serif;
+  word-spacing:1px;
+  font-size:18px;
+}
+.review button{
+  background: white;
+  border:0px;
+  border-radius:50px ;
+  padding:10px 30px;
+  font-size:15px;
+  font-family: 'Signika', sans-serif;
+  margin-top:20px;
+  transition:0.3s ease-in;
+  text-transform: uppercase;
+}
+.review button:hover{
+  background: #F7E987;
+  transition:0.3s ease-out;
+}
+
+
+.sticky-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height:70px;
+}
+i{
+  cursor: pointer;
+}
+.social i{
+  margin-right:10px;
+}
+.lasttext{
+  width: 100%;
+height:40px;
+  background-color: #333;
+}
+
